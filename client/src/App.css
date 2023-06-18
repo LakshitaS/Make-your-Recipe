@@ -1,0 +1,139 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(https://th.bing.com/th/id/OIP.clOsVok2tYviM5fIUAdlzQHaD4?w=305&h=180&c=7&r=0&o=5&pid=1.7); */
+  background-repeat: no-repeat;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.auth {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #ddaf73; */
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  /* margin-top: 100px; */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(145, 81, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.create-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px;
+}
+.create-recipe form {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  color: rgb(145, 81, 35);
+}
+
+h1{
+  color: rgb(145, 81, 35);
+  align-items: center;
+  margin-left: 165px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  max-width: 400px;
+  font-size: 12px;
+}
+
+.buttonn{
+  border: 1px solid black;
+  background-color: rgb(236, 153, 94);
+  margin-left: 75px;
+  font-size: larger;
+  border-radius: 10%;
+  font-family:'Times New Roman', Times, serif;
+}
